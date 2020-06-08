@@ -6,9 +6,11 @@ td, th {
     padding: 10px;
 }
 
+
 th {
     text-align: center;
 }
+
 
 td {
     vertical-align: top;
@@ -36,6 +38,7 @@ table.job-listing td:first-child {
 table.job-listing td:last-child {
     width: 80%;
 }
+
 
 label {
     margin-right: 15px;

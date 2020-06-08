@@ -36,7 +36,8 @@
 
     <hr />
 
-    <!-- TODO #4 - Loop over the search results to display all job fields. -->
+    <p th:if="${jobs}" th:text="${jobs.size() == 0}? 'No search results available'" th:class="${jobs.size() == 0}? 'text-danger'"></p>
+    <th:block th:replace="fragments :: jobs-list"></th:block>
 
 </div>
 
