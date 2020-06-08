@@ -1,6 +1,6 @@
 package org.launchcode.javawebdevtechjobsmvc.models;
 
-import java.util.Objects;
+import java.util.*;
 
 public class Job {
 
