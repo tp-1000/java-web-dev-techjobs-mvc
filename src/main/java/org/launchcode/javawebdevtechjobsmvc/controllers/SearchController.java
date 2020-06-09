@@ -27,6 +27,7 @@ public class SearchController extends TechJobsController{
         ArrayList<Job> jobs;
         model.addAttribute("columns", getColumnChoices());
 
+
         if(searchType.equals("all")){
             if(searchTerm.equals("") || searchTerm.toLowerCase().equals("all")){
                 jobs = JobData.findAll();
@@ -34,6 +35,7 @@ public class SearchController extends TechJobsController{
             else {
                 jobs = JobData.findByValue(searchTerm);
             }
+
             model.addAttribute("jobs", jobs);
             return "search";
         }

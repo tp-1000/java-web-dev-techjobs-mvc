@@ -12,6 +12,7 @@ th {
 }
 
 
+
 td {
     vertical-align: top;
 }
@@ -38,6 +39,7 @@ table.job-listing td:first-child {
 table.job-listing td:last-child {
     width: 80%;
 }
+
 
 
 label {
